@@ -1,0 +1,75 @@
+body{
+    background: #FBD3E9;  /* fallback for old btable table-bordereders */
+
+background: linear-gradient(to left, #BB377D, #FBD3E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+section{
+    
+    max-width:700px;
+    margin:10px  auto;
+    
+}
+#title{
+ color:white;
+ font-family: 'Lora', serif;
+ text-align:center;
+ font-weight:500;
+}
+
+#description{
+    font-size:16px;
+    letter-spacing:0.7;
+    line-height:1.5;
+    font-family: 'Lora', serif;
+}
+
+.table-responsive{
+ 
+    width:500px;
+    margin:20px auto;
+    line-height:1.5;
+    
+}
+.pagenumber_container{
+   
+    width:500px;
+    margin:30px auto;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+.page_number{
+    font-family: 'Lora', serif;
+    font-size:20px;
+    color:white;
+    font-weight:700;
+}
+.page_number:hover{
+    cursor:pointer;
+}
+.table{
+    margin:20px auto; 
+    font-family: 'Lora', serif;
+    text-align:left;
+    
+    
+}
+td{
+    
+    padding:15px;
+    
+   
+}
+p{
+    display:inline;
+    font-size:16px;
+    letter-spacing:0.5;
+    color: rgb(4, 4, 114);
+    font-weight:600;
+}
+thead{
+    text-align:center;
+}
+
